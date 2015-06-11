@@ -1,6 +1,7 @@
 {
-  "name": "simple-signup-form",
+  "name": "app",
   "version": "0.0.0",
+  "homepage": "https://github.com/vinodlala/simple-signup-form",
   "authors": [
     "Vinod Lala <vinod_lala@usa.net>"
   ],
@@ -14,8 +15,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "angular": "~1.4.0"
-  }
+  ]
 }
