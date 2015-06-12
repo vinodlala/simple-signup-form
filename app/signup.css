@@ -1,0 +1,7 @@
+.brand-logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/user-sign-up-sketch.png');
+    background-size: 100%;
+    margin: 3em auto;
+}
