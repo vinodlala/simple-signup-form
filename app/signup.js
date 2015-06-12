@@ -26,7 +26,7 @@ angular.module('signupApp', [])
     })
 
     .directive('optIn', function () {
-        console.log('in optIn directive');
+        //console.log('in optIn directive');
         return {
             restrict: 'E',
 
@@ -47,7 +47,7 @@ angular.module('signupApp', [])
             //template: "signupForm template"
             //template: "signupForm template<form>inside the form tag</form>"
             //template: "signupForm template<form><first-name></first-name>inside the form tag</form>"
-            template: "signupForm template<form><first-name></first-name><last-name></last-name><email></email><submit-button></submit-button></form>"
+            template: "<div><form><first-name></first-name><last-name></last-name><email></email><submit-button></submit-button></form></div>"
 
             //transclude: true,
             //require: "^optIn",
