@@ -36,7 +36,8 @@ angular.module('signupApp', [])
             //template: "<div><span ng-transclude></span></div>",
             template: "<div><span ng-transclude></span><signup-form></signup-form></div>",
             //template: "<div class='container'><ng-transclude></ng-transclude><signup-form></signup-form></div>",
-            replace: true
+            //template: "<div class='container'><ng-transclude></ng-transclude><ng-transclude></ng-transclude><signup-form></signup-form></div>",
+            //replace: true
         };
     })
 
